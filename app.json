@@ -17,14 +17,14 @@
     ],
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.expo.appjs24-workflows-workshop-code"
+      "bundleIdentifier": "com.appjs24-workflows.appjs24-workflows-workshop-code"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "com.expo.appjs24workflowsworkshopcode"
+      "package": "com.appjs24workflows.appjs24workflowsworkshopcode"
     },
     "web": {
       "bundler": "metro",
@@ -33,13 +33,12 @@
     "plugins": [
       [
         "expo-router"
-      ]
+      ],
+      "react-native-image-marker",
+      "expo-font"
     ],
     "experiments": {
       "typedRoutes": true
-    },
-    "runtimeVersion": {
-      "policy": "appVersion"
     }
   }
 }
