@@ -12,47 +12,40 @@
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.expo.appjs24-workflows-workshop-code"
+      "bundleIdentifier": "com.appjs24-workflows.appjs24-workflows-workshop-code"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "com.expo.appjs24workflowsworkshopcode"
+      "package": "com.appjs24workflows.appjs24workflowsworkshopcode"
     },
     "web": {
       "bundler": "metro",
       "favicon": "./assets/images/favicon.png"
     },
-    "plugins": [
-      [
-        "expo-router"
-      ],
-      "react-native-image-marker",
-      "expo-font"
-    ],
+    "plugins": [["expo-router"], "react-native-image-marker", "expo-font"],
     "experiments": {
       "typedRoutes": true
-    },
-    "runtimeVersion": {
-      "policy": "appVersion"
     },
     "extra": {
       "router": {
         "origin": false
       },
       "eas": {
-        "projectId": "b384979e-3af3-4902-9f48-7c0e438f2e85"
+        "projectId": "687b7355-d2a2-4f4d-84b2-9fd871429151"
       }
     },
+    "owner": "appjs24-workflows",
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
     "updates": {
-      "url": "https://u.expo.dev/b384979e-3af3-4902-9f48-7c0e438f2e85"
+      "url": "https://u.expo.dev/687b7355-d2a2-4f4d-84b2-9fd871429151"
     }
   }
 }
