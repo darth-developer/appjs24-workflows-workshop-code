@@ -4,8 +4,8 @@
   "version": "1.0.0",
   "scripts": {
     "start": "APP_VARIANT=development expo start",
-    "android": "APP_VARIANT=development expo run:android",
-    "ios": "APP_VARIANT=development expo run:ios",
+    "android": "expo run:android",
+    "ios": "expo run:ios",
     "web": "expo start --web",
     "test": "jest --watchAll",
     "strip-unused-fields-from-api-data": "node ./data/api/strip_fields.js"
@@ -45,7 +45,7 @@
     "react-native-android-widget": "^0.13.1",
     "react-native-image-crop-picker": "^0.40.3",
     "react-native-image-marker": "^1.2.6",
-    "react-native-reanimated": "^3.10.1",
+    "react-native-reanimated": "~3.10.1",
     "react-native-safe-area-context": "4.10.1",
     "react-native-screens": "3.31.1",
     "react-native-web": "~0.19.6",

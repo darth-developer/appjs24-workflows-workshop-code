@@ -1,15 +1,15 @@
 {
   "cli": {
-    "version": ">= 9.0.8"
+    "version": ">= 7.8.5",
+    "promptToConfigurePushNotifications": false
   },
   "build": {
     "development": {
-      "env": {
-        "APP_VARIANT": "development"
-      },
       "developmentClient": true,
       "distribution": "internal",
       "channel": "development",
+      "env": {
+        "APP_VARIANT": "development"
       "ios": {
         "simulator": true
       }
