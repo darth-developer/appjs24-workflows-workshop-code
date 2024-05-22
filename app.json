@@ -15,14 +15,14 @@
     "assetBundlePatterns": ["**/*"],
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.appjs24-workflows.appjs24-workflows-workshop-code"
+      "bundleIdentifier": "com.expo.appjs24-workflows-workshop-code"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "com.appjs24workflows.appjs24workflowsworkshopcode"
+      "package": "com.expo.appjs24workflowsworkshopcode"
     },
     "web": {
       "bundler": "metro",
@@ -37,15 +37,14 @@
         "origin": false
       },
       "eas": {
-        "projectId": "687b7355-d2a2-4f4d-84b2-9fd871429151"
+        "projectId": "b384979e-3af3-4902-9f48-7c0e438f2e85"
       }
     },
-    "owner": "appjs24-workflows",
     "runtimeVersion": {
       "policy": "appVersion"
     },
     "updates": {
-      "url": "https://u.expo.dev/687b7355-d2a2-4f4d-84b2-9fd871429151"
+      "url": "https://u.expo.dev/b384979e-3af3-4902-9f48-7c0e438f2e85"
     }
   }
 }
